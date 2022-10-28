@@ -6,6 +6,16 @@ This web application is broken. You have three objectives:
  * You need to get **all the tests passing**.
  * You need to **run the app manually with your browser** and make sure it works. You can have a look at the user stories below to understand how the program is expected to behave (without bugs). 
 
+## THE BUGS
+
+ I found 3 bugs.
+ * One was that the paramter postcode was writted post_code.
+
+ * The POST /check method was writted as a GET method.
+
+ * The valid variable wasn't made an instance variable. It was missing the @.
+
+___
 ## User stories
 
 Note that these user stories are **already implemented** by the app — they're here as guidance for you to understand what the program is about and how it should behave when correct.
